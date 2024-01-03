@@ -8,7 +8,9 @@ function navbar() {
       <div className="nav_box">
         <span className="my_shop">My Shopping</span>
         <div className="cart">
-          <span></span>
+          <span>
+            <FaShoppingCart />
+          </span>
         </div>
       </div>
     </nav>
