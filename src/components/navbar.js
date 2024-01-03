@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import { FaShoppingCart } from "react-icons/fa";
+import "../styles/navbar.css";
 
 function navbar() {
   return (
-    <div>navbar</div>
-  )
+    <nav>
+      <div className="nav_box">
+        <span className="my_shop">My Shopping</span>
+        <div className="cart">
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default navbar
+export default navbar;
